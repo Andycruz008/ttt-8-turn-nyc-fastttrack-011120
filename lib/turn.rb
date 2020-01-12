@@ -46,5 +46,6 @@ def move(board,index,token = "X")
 end
 
 def turn(board)
-
+puts "Welcome to Tic Tac Toe!"
+display_board(board)
 end
