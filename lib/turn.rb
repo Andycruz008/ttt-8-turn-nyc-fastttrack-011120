@@ -16,26 +16,7 @@ def valid_move?(board,index)
       end
     end
 end
-=begin
-def valid_move?(board,index)
-  while true
-    if index >= 0 && index <=8
-      if board[index]!= "X" && board[index] != "O"
-        return true
-        false
-      end
-    else
-      while !(index >=0) && !(index <=8)
-       # puts "Please enter 1-9:"
-      #  index = gets.strip
-        #index - 1
-        return false
-        break
-      end
-    end
-  end
-end
-=end
+
 def input_to_index(input)
   index = input.to_i - 1
 end
