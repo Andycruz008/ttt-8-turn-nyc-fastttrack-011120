@@ -15,7 +15,7 @@ def valid_move?(board,index)
       end
     end
 end
-
+["X", " ", " ", " ", " ", " ", " ", " ", " "], 0)
 def input_to_index(input)
   index = input.to_i - 1
 end
