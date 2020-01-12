@@ -46,14 +46,5 @@ def move(board,index,token = "X")
 end
 
 def turn(board)
-oard = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-token = "X"
-puts "Welcome to Tic Tac Toe!"
-display_board(board)
-puts "Please enter 1-9:"
-input = gets.strip
-index = input_to_index(input)
-valid_move?(board,index)
-move(board,index,token)
-turn(board)
+
 end
